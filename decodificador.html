@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="decodificador.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+
+    <title>Decodificador EC</title>
+</head>
+<body>
+    <reader class="topo">
+        
+        <img  class="logo" src=Vector.png> 
+        <h1 class="titulo-pricipal" >Decodificador - Emanuela Caetano</h1> <br>
+        <h2 class="titulo-secundario">Allura Challenge </h2>
+        
+    </reader>
+        <main>
+                <section>
+                    <textarea class="texto1" cols="30" rows="10" placeholder="digite aqui o seu texto para criptografar:"></textarea>
+                    
+                    <textarea class="entrada2" cols="30" rows="10" placeholder="digite aqui o seu texto para descriptografar:"></textarea>
+                </section>
+
+            <section>
+                <button class="botaoCrip" onclick="fnCriptografar()">
+                    Criptografar
+                </button>
+                
+                <button class="botaoDescrip" onclick="fnDescriptografar()">
+                    Descriptografar
+                </button>
+            </section>
+
+            <section>
+                <textarea  id="retorno" class="retorno"  placeholder="resultado" > </textarea>
+            </section>
+
+            <section>
+                <button id="copy" onclick="copiarTexto()"> Copiar</button>
+            </section>
+            
+        </main>
+        <footer>
+            Emanuela Caetano
+            contato link whatsapp 
+            github
+            aparecidacaetano75@gmail.com 
+        </footer>
+</body><script src="decodificador.JS"></script>
+</html>
